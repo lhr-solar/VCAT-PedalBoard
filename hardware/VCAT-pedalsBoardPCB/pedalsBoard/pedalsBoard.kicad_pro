@@ -429,7 +429,7 @@
         "uuid": "423853f6-a5c6-4d97-9a9a-db6f143664c7"
       }
     ],
-    "used_designators": "U3-4,R9-10,R12,J3,J5,IC1-2,C16-23,#PWR2-12,D4,JP1,F4-6,Q1",
+    "used_designators": "U3-5,IC1-2,J3,J5-6,R9-10,R12,C16-23,C30-31,D4-5,#PWR2-18,JP1,F4-6,Q1,TP_3.3V1",
     "variants": []
   },
   "sheets": [
@@ -444,6 +444,18 @@
     [
       "aafb20a0-2a2f-4620-a8da-8fa8b138f682",
       "CAN_Transceiver"
+    ],
+    [
+      "498cf516-6321-48b5-87f8-4bfede2f6700",
+      "12VBuck"
+    ],
+    [
+      "765862e6-177a-45ce-82fa-2a064b9bcb00",
+      "LDO"
+    ],
+    [
+      "87cd8e58-5945-425c-9095-e3fa00f5ae6c",
+      "PowerProtection"
     ]
   ],
   "text_variables": {},
