@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "TLV9152QDRQ1") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/VCAT-pedalsBoardPCB/Symbols/TLV9152QDRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "3557-2") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/VCAT-pedalsBoardPCB/Symbols/3557-2.kicad_sym") (options "") (descr ""))
+	(lib (name "IRLML0030TRPBF") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/VCAT-pedalsBoardPCB/Symbols/IRLML0030TRPBF.kicad_sym") (options "") (descr ""))
 )

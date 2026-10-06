@@ -429,7 +429,7 @@
         "uuid": "423853f6-a5c6-4d97-9a9a-db6f143664c7"
       }
     ],
-    "used_designators": "U3-5,IC1-2,J3,J5-6,R9-10,R12,C16-23,C30-31,D4-5,#PWR2-18,JP1,F4-6,Q1,TP_3.3V1",
+    "used_designators": "U3-7,#FLG5-9,R9-10,R12,R20-29,J3,J5-8,IC1-3,C16-23,C30-31,C39-54,#PWR2-24,D4-5,D8-12,JP1,F3-9,Q1,Q4-6,TP_3.3V1-2,L2,TP5-8",
     "variants": []
   },
   "sheets": [
@@ -446,15 +446,23 @@
       "CAN_Transceiver"
     ],
     [
-      "498cf516-6321-48b5-87f8-4bfede2f6700",
-      "12VBuck"
+      "58986a41-0bde-4c83-943a-975adade3f78",
+      "USB-C_Connector"
     ],
     [
-      "765862e6-177a-45ce-82fa-2a064b9bcb00",
+      "26d9f075-73a6-4044-b4f9-8fe225c47fcc",
+      "Power"
+    ],
+    [
+      "9b03dc66-1214-42b2-8747-33b789bdecf9",
       "LDO"
     ],
     [
-      "87cd8e58-5945-425c-9095-e3fa00f5ae6c",
+      "201cb619-540d-483a-b529-2226b2b1f1d1",
+      "12VBuck"
+    ],
+    [
+      "e26fd251-833a-49b0-b3d4-1f3d06eef6df",
       "PowerProtection"
     ]
   ],

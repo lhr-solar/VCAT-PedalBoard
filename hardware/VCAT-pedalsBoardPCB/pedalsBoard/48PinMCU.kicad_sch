@@ -54168,6 +54168,17 @@
 		)
 		(uuid "1c4ca756-2dcd-47f4-a35c-ffb346ae81aa")
 	)
+	(hierarchical_label "PA11"
+		(shape bidirectional)
+		(at 121.92 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2308457b-8e05-4a38-aec3-72731956bcb9")
+	)
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 184.15 103.124 0)
@@ -54630,28 +54641,6 @@
 		)
 		(uuid "e05a2a50-c975-4a70-9f3c-1d2636535876")
 	)
-	(hierarchical_label "USB_DM"
-		(shape bidirectional)
-		(at 121.92 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed325b6b-c95a-4610-8736-f6645be3b87c")
-	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 121.92 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3dcfe21-4909-461a-827e-3f13d025b99d")
-	)
 	(hierarchical_label "PB12"
 		(shape bidirectional)
 		(at 60.96 92.71 180)
@@ -54662,6 +54651,17 @@
 			(justify right)
 		)
 		(uuid "f43fb4d1-da77-49d6-b688-b357ba600a52")
+	)
+	(hierarchical_label "PA12"
+		(shape bidirectional)
+		(at 121.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4c63cb1-224b-4a9c-891d-d6a55c842a83")
 	)
 	(hierarchical_label "GND"
 		(shape input)

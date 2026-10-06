@@ -1934,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C31"
+		(property "Reference" "C47"
 			(at 168.275 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,27 +2012,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
+			(uuid "8ce4226a-b0b1-49d0-84ca-d3d1a42e30b7")
 		)
 		(pin "2"
-			(uuid "aa1ead18-c899-4600-b544-441f9dedd605")
+			(uuid "6bd42ff4-f59f-4249-b5b4-ab68e7956712")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/765862e6-177a-45ce-82fa-2a064b9bcb00"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
-					(reference "C?")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/9b03dc66-1214-42b2-8747-33b789bdecf9"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -2049,7 +2037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP_3.3V1"
+		(property "Reference" "TP_3.3V2"
 			(at 166.624 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,18 +2131,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
+			(uuid "63be29d8-a3d8-4b38-a732-d865a0a94b33")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/765862e6-177a-45ce-82fa-2a064b9bcb00"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "TP_3.3V1")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/9b03dc66-1214-42b2-8747-33b789bdecf9"
+					(reference "TP_3.3V2")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d371a-42b5-499b-b058-ab8f85cbe506")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 152.4 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,24 +2252,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
+			(uuid "715cadff-e972-4a28-98ed-41ad83142c2b")
 		)
 		(pin "1"
-			(uuid "995de51d-9d43-4d1a-b9fe-0b2a61d94583")
+			(uuid "05cac74f-74a1-4d38-b68d-eb3e4a479332")
 		)
 		(pin "3"
-			(uuid "957fe355-65e9-43a7-85ca-76966301f183")
+			(uuid "eee4d978-6344-4401-9e5f-c6c532860083")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/765862e6-177a-45ce-82fa-2a064b9bcb00"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "U1")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/9b03dc66-1214-42b2-8747-33b789bdecf9"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2305,7 +2281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D5"
+		(property "Reference" "D10"
 			(at 133.604 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,21 +2379,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
+			(uuid "372ccf6b-fbf1-4ce5-bf85-2e3785c0dbea")
 		)
 		(pin "2"
-			(uuid "92239788-8b6a-4474-afbc-db272288e943")
+			(uuid "9ec7cb10-fb70-4f1a-8a94-8f28763651cd")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/765862e6-177a-45ce-82fa-2a064b9bcb00"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "D1")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/9b03dc66-1214-42b2-8747-33b789bdecf9"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2435,7 +2405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C30"
+		(property "Reference" "C46"
 			(at 142.875 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,27 +2483,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c088605-de17-491b-a92c-48312011ee9b")
+			(uuid "05d7025b-ddf5-4842-991e-375d8d3b40d7")
 		)
 		(pin "2"
-			(uuid "7a07c67e-64ee-4191-918c-55b9b7230005")
+			(uuid "a5c15fd3-9e82-4a4a-a353-da446678e9b2")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/765862e6-177a-45ce-82fa-2a064b9bcb00"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
-					(reference "C?")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/9b03dc66-1214-42b2-8747-33b789bdecf9"
+					(reference "C46")
 					(unit 1)
 				)
 			)
