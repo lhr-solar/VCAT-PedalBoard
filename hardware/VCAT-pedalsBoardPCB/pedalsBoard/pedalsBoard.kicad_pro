@@ -429,7 +429,7 @@
         "uuid": "423853f6-a5c6-4d97-9a9a-db6f143664c7"
       }
     ],
-    "used_designators": "U3-7,#FLG5-9,R9-10,R12,R20-29,J3,J5-8,IC1-3,C16-23,C30-31,C39-54,#PWR2-24,D4-5,D8-12,JP1,F3-9,Q1,Q4-6,TP_3.3V1-2,L2,TP5-8",
+    "used_designators": "U1,U3-7,IC1-3,J1-3,J5-8,#FLG5-9,R1-4,R9-18,R20-29,C1-8,C16-25,C30-31,C39-54,D4-5,D8-12,#PWR2-28,JP1,F3-13,Q1,Q4-6,TP_3.3V1-2,L2,TP5-8,IRLM0030Fixthis1",
     "variants": []
   },
   "sheets": [
@@ -438,16 +438,24 @@
       "Root"
     ],
     [
-      "960853c2-5400-45ce-b01b-27ff6a99006b",
-      "48PinMCU"
+      "acc44d2c-6102-4029-853a-d596701ce5ec",
+      "Power_Mux"
     ],
     [
       "aafb20a0-2a2f-4620-a8da-8fa8b138f682",
       "CAN_Transceiver"
     ],
     [
-      "58986a41-0bde-4c83-943a-975adade3f78",
-      "USB-C_Connector"
+      "9b95b5c0-77b3-4892-a062-d55c852910d3",
+      "SensorLogic"
+    ],
+    [
+      "09304c86-107a-455a-8167-104f33e31cc1",
+      "MCU"
+    ],
+    [
+      "a0ec4b34-7d47-431c-a47e-c6f3c2b5f179",
+      "48PinMCU1"
     ],
     [
       "26d9f075-73a6-4044-b4f9-8fe225c47fcc",
@@ -463,7 +471,11 @@
     ],
     [
       "e26fd251-833a-49b0-b3d4-1f3d06eef6df",
-      "PowerProtection"
+      "PP"
+    ],
+    [
+      "c7c8ec3c-abef-422a-9eaa-f5640db030e6",
+      "USB-C_Connector1"
     ]
   ],
   "text_variables": {},
