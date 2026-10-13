@@ -429,7 +429,7 @@
         "uuid": "423853f6-a5c6-4d97-9a9a-db6f143664c7"
       }
     ],
-    "used_designators": "U1,U3-7,IC1-3,J1-3,J5-8,#FLG5-9,R1-4,R9-18,R20-29,C1-8,C16-25,C30-31,C39-54,D4-5,D8-12,#PWR2-28,JP1,F3-13,Q1,Q4-6,TP_3.3V1-2,L2,TP5-8,IRLM0030Fixthis1",
+    "used_designators": "U1,U3-11,IC1-4,J1-3,J5-8,J10-14,#FLG5-9,#FLG11-18,R1-18,R20-29,R38-64,C1-25,C30-31,C39-54,C56-100,D1-5,D8-12,D15-23,#PWR2-28,#PWR31-38,JP1-3,F3-13,Q1,Q4-7,TP_3.3V1-3,L2-3,TP5-8,TP18-26,IRLM0030Fixthis1,FB1-2,FB5-8,SW1-2,SW5-8,Y1,Y3-4,IRLML0030TRPBF2",
     "variants": []
   },
   "sheets": [
@@ -458,6 +458,10 @@
       "48PinMCU1"
     ],
     [
+      "533bc9a6-9845-4400-8705-67f71bcf725a",
+      "USB-C_Connector1"
+    ],
+    [
       "26d9f075-73a6-4044-b4f9-8fe225c47fcc",
       "Power"
     ],
@@ -472,10 +476,6 @@
     [
       "e26fd251-833a-49b0-b3d4-1f3d06eef6df",
       "PP"
-    ],
-    [
-      "c7c8ec3c-abef-422a-9eaa-f5640db030e6",
-      "USB-C_Connector1"
     ]
   ],
   "text_variables": {},

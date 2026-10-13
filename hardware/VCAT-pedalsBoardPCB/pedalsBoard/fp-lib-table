@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MyParts") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/VCAT-PedalsBoardPCB/Footprints/MyParts.pretty") (options "") (descr ""))
+)

@@ -33499,7 +33499,7 @@
 			"gEBAICAQEAgMPQL/D3SdeAReOj/fAAAAAElFTkSuQmCC"
 		)
 	)
-	(hierarchical_label "3.3v"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 149.86 67.31 0)
 		(effects
@@ -33620,7 +33620,7 @@
 		)
 		(uuid "deaa5507-d4de-4c93-9ade-af6e02b24328")
 	)
-	(hierarchical_label "3.3v"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 87.63 63.5 0)
 		(effects
