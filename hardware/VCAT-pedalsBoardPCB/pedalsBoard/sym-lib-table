@@ -8,4 +8,5 @@
 	(lib (name "lhrs_misc") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/KiCAD-Sharepoint/lhrs_misc.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_power") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/KiCAD-Sharepoint/lhrs_power.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_special") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/KiCAD-Sharepoint/lhrs_special.kicad_sym") (options "") (descr ""))
+	(lib (name "SD15C-01FTG") (type "KiCad") (uri "C:/Users/kevin/LHR/VCAT-PedalBoard/hardware/VCAT-PedalsBoardPCB/Symbols/SD15C-01FTG.kicad_sym") (options "") (descr ""))
 )
