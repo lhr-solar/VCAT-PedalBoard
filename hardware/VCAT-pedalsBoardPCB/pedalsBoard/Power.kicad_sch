@@ -579,7 +579,7 @@
 	)
 	(rectangle
 		(start 36.83 53.34)
-		(end 181.61 90.17)
+		(end 181.61 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -650,12 +650,6 @@
 		(uuid "77aee514-62ad-4cba-ad39-fafba4547dd9")
 	)
 	(junction
-		(at 138.43 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "853401af-6fa1-4e8d-ae8a-9ad7d7ad02ba")
-	)
-	(junction
 		(at 68.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -688,16 +682,6 @@
 			(type default)
 		)
 		(uuid "027a687a-7a7d-405d-ac9b-4c3d93f92385")
-	)
-	(wire
-		(pts
-			(xy 167.64 66.04) (xy 167.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f3538c-9379-47b9-92c2-ee41c8fcfaf7")
 	)
 	(wire
 		(pts
@@ -781,7 +765,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 68.58) (xy 167.64 68.58)
+			(xy 166.37 68.58) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -941,16 +925,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 138.43 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80aeb3d-0e00-49e1-9e8e-a50fd48fb05f")
-	)
-	(wire
-		(pts
 			(xy 114.3 68.58) (xy 116.84 68.58)
 		)
 		(stroke
@@ -991,7 +965,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 167.64 66.04 0)
+		(at 168.91 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1179,7 +1153,7 @@
 			)
 		)
 		(property "Value" "TP_12V"
-			(at 73.914 57.658 0)
+			(at 74.93 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1189,7 +1163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1267,7 +1241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 106.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1345,7 +1319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1426,7 +1400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 166.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1504,7 +1478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 112.522 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -1585,7 +1559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
 			(at 140.97 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1663,7 +1637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 112.522 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1713,7 +1687,7 @@
 	)
 	(sheet
 		(at 116.84 66.04)
-		(size 21.59 22.86)
+		(size 21.59 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1739,7 +1713,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Mux.kicad_sch"
-			(at 116.84 89.4846 0)
+			(at 116.84 97.1046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1886,83 +1860,6 @@
 		)
 	)
 	(sheet
-		(at 76.2 66.04)
-		(size 25.4 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "521dc22e-9478-4c61-a4c9-c65800ada9dd")
-		(property "Sheetname" "12VBuck"
-			(at 76.2 65.3284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 76.2 78.0546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 101.6 74.93 0)
-			(uuid "8a1e7b3d-388a-4305-a217-c025985f756b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_in_12V" input
-			(at 76.2 68.58 180)
-			(uuid "a3e25ffd-a9d0-4cf1-a804-f8814031c132")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out_5V" output
-			(at 101.6 68.58 0)
-			(uuid "abe9285c-64cd-426a-9947-e65ae769ba41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 148.59 66.04)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
@@ -2035,6 +1932,82 @@
 			(project "pedalsBoard"
 				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 62.23)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86f33dbf-a65f-454e-b0f3-297fd5eb299d")
+		(property "Sheetname" "12VBuck"
+			(at 76.2 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VBuck.kicad_sch"
+			(at 76.2 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 101.6 74.93 0)
+			(uuid "5551c85e-8e07-4843-b7cd-68ca8c8a1652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_in_12V" input
+			(at 76.2 68.58 180)
+			(uuid "b2a4635b-4078-48c8-a500-390ebb7ffd20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out_5V" output
+			(at 101.6 68.58 0)
+			(uuid "977fa709-2b88-424d-a989-2ac221d9b698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pedalsBoard"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc"
+					(page "7")
 				)
 			)
 		)

@@ -5,129 +5,6 @@
 	(uuid "f2a6729b-b8d5-4133-ae64-a5e680928255")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1144,18 +1021,6 @@
 		)
 		(uuid "706daa59-e917-44b1-9e99-00ea9f7faf61")
 	)
-	(rectangle
-		(start 215.265 114.935)
-		(end 247.015 148.59)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "edd832f5-91c3-4fb0-b5b4-8f5f6d4796dc")
-	)
 	(text "12V Vout"
 		(exclude_from_sim no)
 		(at 223.012 72.898 0)
@@ -1166,15 +1031,15 @@
 		)
 		(uuid "2b41b39b-bf13-4b48-ab5a-8b5da00bc095")
 	)
-	(text "Test Points\n"
+	(text "Vin: 4.6V to 60V"
 		(exclude_from_sim no)
-		(at 230.378 117.856 0)
+		(at 74.93 84.836 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8902470b-a4d4-412f-a1c8-1d6b98a7219f")
+		(uuid "56304c54-7458-4a22-9af6-d9f834b01a1e")
 	)
 	(text "Fsw 400khz"
 		(exclude_from_sim no)
@@ -1335,16 +1200,6 @@
 		)
 		(uuid "4bc1ae6b-db4d-46c2-94d2-b619e83cf983")
 	)
-	(polyline
-		(pts
-			(xy 215.265 120.015) (xy 247.015 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c899a87-23a1-45d9-911c-02ad3312e46b")
-	)
 	(wire
 		(pts
 			(xy 170.18 91.44) (xy 179.07 91.44)
@@ -1384,16 +1239,6 @@
 			(type default)
 		)
 		(uuid "617245ea-dad1-45ea-b898-e196953e8de2")
-	)
-	(wire
-		(pts
-			(xy 227.33 130.81) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b4f045-1492-41f3-b438-a36c94c7fda5")
 	)
 	(wire
 		(pts
@@ -1563,7 +1408,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c341ae99-7232-4f8f-8519-e9881c327a95")
+		(uuid "c12f9e1e-c7a5-4f81-ac9d-e371fcbe4980")
 	)
 	(wire
 		(pts
@@ -7844,17 +7689,6 @@
 		)
 		(uuid "13eb82c5-6b44-4b8a-b253-c2b1fcd669cf")
 	)
-	(hierarchical_label "V_in_12V"
-		(shape input)
-		(at 227.33 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58af6e10-cf20-4947-8e5d-cb298812265b")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 179.07 102.87 180)
@@ -8000,12 +7834,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ad1fcf-c1ca-430c-869a-9875daefe11c")
+			(uuid "280f94ac-7e10-4543-95ae-23cecaffdc5d")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
 					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8023,7 +7881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae97d19-6cde-4171-85fa-660ede195ee5")
-		(property "Reference" "C36"
+		(property "Reference" "C35"
 			(at 96.52 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8101,94 +7959,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4c66f2a-98a0-445c-b258-553ae4ca5f67")
+			(uuid "5f8c829e-0d94-4597-b6d1-11f962781726")
 		)
 		(pin "2"
-			(uuid "5e7045c1-f459-474a-9f10-611272a9d93e")
+			(uuid "093f271d-939d-4ed8-8c31-8e39c7376cc0")
 		)
 		(instances
-			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C36")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "534903a9-bc70-4eea-8652-865f25dff125")
-		(property "Reference" "TP14"
-			(at 229.87 123.6979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_in_12V"
-			(at 222.25 122.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C11")
+					(unit 1)
 				)
 			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05009eaa-dbb9-474d-8ed2-149b62352d70")
-		)
-		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "TP14")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8225,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Passives:74439369082"
+		(property "Footprint" "LHRS_Power:XAL5050822MEC"
 			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8258,7 +8061,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C5309356"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8269,7 +8072,7 @@
 				)
 			)
 		)
-		(property "P/N" "74439369082"
+		(property "P/N" "XAL5050-822MEC"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8281,14 +8084,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "455703b3-d60a-42cd-94b1-faf865b51158")
+			(uuid "c7e9a79e-6fc0-45e0-b61d-be193396dd81")
 		)
 		(pin "2"
-			(uuid "622e3067-56fa-4d35-b172-34c7f4d5f16c")
+			(uuid "7159255e-ddbf-4f55-a45d-bde4cdde1f80")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "L1")
 					(unit 1)
 				)
@@ -8362,12 +8189,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "469b6863-8f1b-4aaf-ba22-d60da8743c2a")
+			(uuid "f1965223-1f6f-41fc-893b-bfbf15ea99c5")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
 					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8440,12 +8291,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "57d00801-dd1c-4d27-a706-5fbe7ff7bdad")
+			(uuid "ea558099-2b45-48cd-95d8-d4480a5bc526")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
 					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "817e4ae9-6788-4cb4-96fd-a664d009c3eb")
-		(property "Reference" "C38"
+		(property "Reference" "C37"
 			(at 164.084 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,15 +8415,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "d4940413-3c94-4da7-90f6-a50eb200dadc")
+			(uuid "05e2161f-3ae6-4990-b02a-48ebc0696571")
 		)
 		(pin "1"
-			(uuid "d0309b94-34ea-4c6b-b21d-6b67290f8986")
+			(uuid "af76aa0f-1313-4259-a832-63afcf50baac")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C38")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83c8aacc-7033-4c5e-a893-15cad2be6288")
-		(property "Reference" "C40"
+		(property "Reference" "C39"
 			(at 189.992 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,15 +8530,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "30ecb2f5-b5d4-481a-8cd3-3baf174c2ae3")
+			(uuid "bc1acade-defa-4e1a-bafa-d5c6874dc37f")
 		)
 		(pin "1"
-			(uuid "9951b0cb-5e75-4fca-bdbe-43636fed5571")
+			(uuid "62a87d06-0863-4b64-823f-d436b046331c")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C40")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f499efd-8f91-403e-8239-07b7c59cd6ee")
-		(property "Reference" "C35"
+		(property "Reference" "C4"
 			(at 156.718 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8746,15 +8645,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "a09105dd-139b-48d4-845e-aa3fee469313")
+			(uuid "5836b8ab-fa56-47f1-8634-69b00a25ef78")
 		)
 		(pin "2"
-			(uuid "e0b77939-7048-4c59-9576-5c84a73f582b")
+			(uuid "92e85899-2f88-4b56-b952-b5b2a40385f9")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C35")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8827,12 +8750,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "145fac7b-f9ab-44ae-afd9-6c403d999216")
+			(uuid "43421a8f-a37e-4dfd-9e1c-51b8bf2329d4")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
 					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8850,7 +8797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a58f5c-5b53-4bfa-af1c-ad84b32d2305")
-		(property "Reference" "R32"
+		(property "Reference" "R4"
 			(at 227.33 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8872,7 +8819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8928,15 +8875,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5470cf5-350b-41a6-b360-8190abd5e777")
+			(uuid "a8411bda-995e-438f-ba05-680f6fba0e23")
 		)
 		(pin "2"
-			(uuid "97f96219-fd19-4175-a497-d05e3a5bf7eb")
+			(uuid "254e1830-33f5-4cd6-8480-1278e4a90c6c")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "R32")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8954,7 +8925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c64f4f-c674-4d50-80a7-5bee03f8aefe")
-		(property "Reference" "C37"
+		(property "Reference" "C36"
 			(at 105.41 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9032,15 +9003,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "76d5674a-408b-4e93-9c19-ddc88868fdbb")
+			(uuid "5a503b1a-1d2c-4725-839e-1d1b81497ea6")
 		)
 		(pin "2"
-			(uuid "42c0d61d-1cf0-4519-87b4-875395a19f9c")
+			(uuid "0741cb29-3afc-4b8a-9e3d-47ceb8966423")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C37")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9058,7 +9041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c670e479-9032-4930-8709-ad4a3c228811")
-		(property "Reference" "R33"
+		(property "Reference" "R6"
 			(at 227.33 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9136,15 +9119,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "4937b367-5f86-40f3-baeb-378b4336e954")
+			(uuid "ed72adb1-52dd-41b9-b91d-1bcdb0eeb668")
 		)
 		(pin "2"
-			(uuid "aaec841b-d935-44b4-8e1d-0d0881956267")
+			(uuid "a42b1cc6-2465-46c5-83e4-c28a3865990c")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "R33")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbf0021f-2456-410b-af7a-f5090fbf6009")
-		(property "Reference" "C39"
+		(property "Reference" "C38"
 			(at 173.482 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,15 +9246,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "eef58f1f-2f9a-42bf-b749-2e4b8eac6ac8")
+			(uuid "f8d7f479-3e92-4128-8141-c6a4d4487cfc")
 		)
 		(pin "1"
-			(uuid "7ad42a65-d1bb-4a6f-9f32-b42eabf9211c")
+			(uuid "3374be08-ad4b-4056-b044-bcd494975333")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
-					(reference "C39")
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DDC0006A-MFG"
+		(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9320,28 +9339,56 @@
 				)
 			)
 		)
+		(property "P/N" "LMR51635XDDCR"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C42432812"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
-			(uuid "7f504d22-22a0-4d89-a799-fb78faf1fbc7")
+			(uuid "d1afdcbd-1ad1-4ee0-a46e-15a36aac9cbc")
 		)
 		(pin "3"
-			(uuid "46a2c54f-f297-475e-b85f-eee5e42a186a")
+			(uuid "b3b9f68d-714b-4a22-b0ab-5cced058e602")
 		)
 		(pin "5"
-			(uuid "b4d4be90-abce-43ac-b003-3c0a4bf14926")
+			(uuid "3348a68a-c357-4685-b19b-1cec590a8044")
 		)
 		(pin "2"
-			(uuid "07913010-be46-4e1c-a28c-e499d794047c")
+			(uuid "2358ff33-1979-455f-baeb-885f75abc3d4")
 		)
 		(pin "6"
-			(uuid "4a85e924-9c73-4921-abbe-63204a63d161")
+			(uuid "1531b8fc-cfd3-4123-859c-920ac9f7e62b")
 		)
 		(pin "1"
-			(uuid "8204c634-e8fc-49a1-be99-2664a6023a43")
+			(uuid "4429cce5-b495-436a-8e9d-e723b7803070")
 		)
 		(instances
 			(project "pedalsBoard"
-				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/521dc22e-9478-4c61-a4c9-c65800ada9dd"
+				(path "/423853f6-a5c6-4d97-9a9a-db6f143664c7/26d9f075-73a6-4044-b4f9-8fe225c47fcc/86f33dbf-a65f-454e-b0f3-297fd5eb299d"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "U1")
 					(unit 1)
 				)
 			)
