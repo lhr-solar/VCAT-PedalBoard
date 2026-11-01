@@ -1198,6 +1198,12 @@
 		(uuid "ea7cdde6-5609-4a86-8c2f-58b2b981e18c")
 	)
 	(junction
+		(at 102.87 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed99552e-b108-467a-a837-0ba08773e67d")
+	)
+	(junction
 		(at 107.95 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1309,6 +1315,16 @@
 		)
 		(uuid "077bfe18-d22c-4fe2-8d40-e69e702b2eff")
 	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3ceb56-c803-419b-8ec1-eadf9ace5598")
+	)
 	(bus
 		(pts
 			(xy 165.1 54.61) (xy 165.1 157.48)
@@ -1388,6 +1404,16 @@
 			(type default)
 		)
 		(uuid "27be07d6-7f83-4c3e-9253-286a01a475d6")
+	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283f10e6-9fa8-41a2-bde2-375cc883b4b2")
 	)
 	(wire
 		(pts
@@ -1601,16 +1627,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1e853d-7ac4-4eef-8658-80a3b18a033c")
-	)
-	(wire
-		(pts
 			(xy 127 54.61) (xy 127 57.15)
 		)
 		(stroke
@@ -1618,6 +1634,16 @@
 			(type default)
 		)
 		(uuid "5eaedba8-6100-4650-b814-1f01834b165c")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec7f974-7e59-49c5-bd52-4e83e9cbd19e")
 	)
 	(wire
 		(pts
@@ -2081,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 110.49 66.04)
+			(xy 93.98 66.04) (xy 102.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +3244,7 @@
 			)
 		)
 		(property "Value" "TP_BSENS_IN"
-			(at 118.618 52.578 0)
+			(at 104.902 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3228,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3975,7 +4001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 121.92 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4561,7 +4587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 97.79 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4822,7 +4848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 97.79 127 0)
 			(hide yes)
 			(show_name no)
@@ -5072,7 +5098,7 @@
 			)
 		)
 		(property "Value" "TP_ACCPOT2_IN"
-			(at 62.992 144.526 0)
+			(at 83.312 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5082,7 +5108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5794,7 +5820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 121.92 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 76.2 120.65 0)
 			(hide yes)
 			(show_name no)

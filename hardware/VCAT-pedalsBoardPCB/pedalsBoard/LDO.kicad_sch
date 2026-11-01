@@ -2057,7 +2057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TestPoint_HEX_3mmID"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 170.18 63.5 0)
 			(hide yes)
 			(show_name no)
