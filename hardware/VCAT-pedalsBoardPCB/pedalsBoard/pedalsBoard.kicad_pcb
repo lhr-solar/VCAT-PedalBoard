@@ -63,7 +63,7 @@
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(footprint "LHRS_Special:BootSW"
@@ -36362,18 +36362,6 @@
 		(layer "Edge.Cuts")
 		(uuid "342cb8d9-fa32-4862-b3a7-bb63fa2b6848")
 	)
-	(gr_text "Kevin Yan\nPedals"
-		(at 183.5 45.5 0)
-		(layer "F.SilkS")
-		(uuid "28a96f4c-b073-4b84-9a36-7d5dd8e5850a")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "TP's"
 		(at 204.3976 97.5508 0)
 		(layer "F.SilkS")
@@ -36487,6 +36475,18 @@
 				(size 0.8 0.8)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Kevin Yan\nPedals"
+		(at 181.75 48 0)
+		(layer "F.SilkS")
+		(uuid "28a96f4c-b073-4b84-9a36-7d5dd8e5850a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
 			)
 			(justify left bottom)
 		)
